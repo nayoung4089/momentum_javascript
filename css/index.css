@@ -1,0 +1,75 @@
+body{
+    margin: 0 auto;
+    color: #ffff;
+}
+/* 날씨정보 */
+#weather{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    padding: 20px;
+}
+/* 질문과 빈칸 */
+.question{
+    font-size: 2.25em;
+}
+input, button{
+    background: 0;
+    border: 0;
+    outline: none;
+}
+input{
+    width: 100%;
+    padding-top: 4px;
+    display: block;
+    border-bottom: 3px solid #fff;
+    color: #ffff;
+    font-size: 2.25em;
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: center;
+    transition: border-color .2s ease;
+}
+
+.hidden{
+    display:none;
+}
+
+.text-all{
+    text-align: center; 
+    /* 가로세로 가운데 정렬 */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 600px;
+}
+/* 시계 */
+.clock{
+    font-size: 800%;
+    font-weight: 540;
+}
+/* 환영인사 */
+#greeting{
+    font-size: 350%;
+    padding: 10px 0;
+    font-weight: 600;
+}
+/* 배경화면 */
+img{
+    width: 100vw;
+    height: 100vh; 
+    /* 화면 꽉 채우게 */
+}
+
+/* todolist */
+li{
+    list-style-type: none;
+    /* 마커 지워주기 */
+    font-size: 1.8em;
+    font-weight: 400;
+}
+button{
+    font-size: 1.0em;
+    color: white;
+}

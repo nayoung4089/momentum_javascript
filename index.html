@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src = "js/greeting.js" defer></script>
+    <script src = "js/clock.js" defer></script>
+    <script src = "js/novel.js" defer></script>
+    <script src = "js/background.js" defer></script>
+    <script src = "js/todo.js" defer></script>
+    <script src = "js/weather.js" defer></script>
+    <title>my_momentum</title>
+</head>
+<body>
+  <!-- 날씨정보 -->
+  <div id = "weather">
+    <span></span><br>
+    <span></span>
+  </div>
+
+  <div class="text-all">
+  <!-- 시계 -->
+  <div class="clock">00:00:00</div>
+
+  <!-- 이름 물어보기/ 환영인사 -->
+  <form id = "login-form" class="hidden">
+    <div class="question">
+      이름이 뭔가요?
+    </div>
+    <input 
+    required
+    maxlength="15"    
+    type="text" />
+  </form>
+  <!-- 이름화면 다음에 나올 것들 총칭 -->
+  <div id="mainpage" class="hidden"> 
+  <div id = "greeting"></div>
+
+  <!-- To-Do-List -->
+  <div class="question">
+    오늘의 목표는 무엇인가요?
+  </div>
+  <form id ="todo-form">
+    <input type = "text" required />
+  </form>
+  <ul id = "todo-list"> 
+    <!-- 이곳에 리스트가 쌓일 것임 -->
+  </ul>
+
+  <!-- 소설 한문장 -->
+  <div id="novel">
+    <span></span><br>
+    <span></span>
+  </div>
+</div>
+</div>
+</body>
+</html>
+
